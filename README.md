@@ -4,11 +4,11 @@
 
 Duswnsey
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-This is a skin for caki, based on [buma](https://github.com/Litehell/buma).
+This is a skin for nextjs, based on [buma](https://github.com/Litehell/buma).
 와 나도 JSX로 포팅했으니까 스페셜 땡스 받는거임? (나에게)
 
 ## use
-/public/skins에 넣고 엔진 재빌드하면 됨
+/public/skins에 넣고 재빌드하면 됨
 
 ## License
 ### FontAwesome
