@@ -1,18 +1,20 @@
-<template>
-<h2 class="title">buma 스킨 정보</h2>
-<p>Copyright (C) 2017 LiteHell<br><br>
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br><br>
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.<br><br>
-You should have received a copy of the GNU General Public License along with this program.  If not, see <a href="http://www.gnu.org/licenses/">&lt;http://www.gnu.org/licenses/&gt;</a>.
-</p>
-<h2 class="title">사용된 라이브러리 및 리소스들</h2>
+export default function SkinLicense (){
+    return (
+        <>
+                <h2 className="title">buma 스킨 정보</h2>
+                <p>Copyright (C) 2017 LiteHell<br /><br />
+                This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br /><br />
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.<br /><br />
+                You should have received a copy of the GNU General Public License along with this program.  If not, see <a href="http://www.gnu.org/licenses/">&lt;http://www.gnu.org/licenses/&gt;</a>.
+                </p>
+<h2 className="title">사용된 라이브러리 및 리소스들</h2>
 <ul>
     <li><a href="//fontawesome.com">Font Awesome 6</a> : CC BY 4.0, MIT</li>
     <li><a href="//bulma.io">bulma.io</a> : MIT License, Copyright (c) 2017 Jeremy Thomas</li>
     <li><a href="//commons.wikimedia.org/wiki/File:Loading_icon.gif">Loading icon.gif</a> : CC BY 4.0, Copyright (C) 2015 Ahm masum</li>
 </ul>
-<h2 class="title">buma 스킨 라이선스</h2>
-<pre>
+<h2 className="title">buma 스킨 라이선스</h2>
+<pre>{`
         GNU GENERAL PUBLIC LICENSE
         Version 3, 29 June 2007
 
@@ -668,11 +670,11 @@ If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
 &lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;
-This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This program comes with ABSOLUTELY NO WARRANTY; for details type \`show w'.
 This is free software, and you are welcome to redistribute it
-under certain conditions; type `show c' for details.
+under certain conditions; type \`show c' for details.
 
-The hypothetical commands `show w' and `show c' should show the appropriate
+The hypothetical commands \`show w' and \`show c' should show the appropriate
 parts of the General Public License.  Of course, your program's commands
 might be different; for a GUI interface, you would use an "about box".
 
@@ -687,6 +689,6 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 &lt;https://www.gnu.org/licenses/why-not-lgpl.html&gt;.
-
-</pre>
-</template>
+`}</pre></>
+        )
+}

@@ -1,19 +1,14 @@
 # theseed-skin-buma
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+
+Duswnsey
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-This is a third-party skin for the seed engine, based on [bulma](https://bulma.io).
-Special thanks to [gdl-888](https://github.com/gdl-888) for porting to Vue.js.
+This is a skin for caki, based on [buma](https://github.com/Litehell/buma).
+와 나도 JSX로 포팅했으니까 스페셜 땡스 받는거임? (나에게)
 
-## Build
-You need [Yarn](https://yarnpkg.com/) to build this skin.
-```bash
-yarn
-yarn build
-```
-
-## Formatting
-This project uses [prettier](https://prettier.io) for formatting. It convenient to use Visual Studio Code with [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## use
+/public/skins에 넣고 엔진 재빌드하면 됨
 
 ## License
 ### FontAwesome
@@ -37,3 +32,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# GPL Sucks.
+음ㅁㅁ
