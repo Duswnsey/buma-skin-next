@@ -64,6 +64,10 @@ export default function skin (props) {
                                 <span className="icon"> <span className="far fa-frown" /> </span>&nbsp;
                                 고립된 문서
                             </Link>
+                            <Link className="navbar-item" href="/OrphanedCategories">
+                                <span className="icon"> <span className="far fa-frown" /> </span>&nbsp;
+                                고립된 분류
+                            </Link>
                             <Link className="navbar-item" href="/UncategorizedPages">
                                 <span className="icon">
                                     <span className="far fa-question-circle" /> </span
@@ -130,12 +134,16 @@ export default function skin (props) {
                                 </Link>
                                 <div className="navbar-divider"></div>
                                 <Link href={`/contribute/doc/${props.data.user.name}`} className="navbar-item">
-                                    <span className="icon"> <span className="fas fa-chart-line" /> </span
+                                    <span className="icon"> <span className="fas fa-file-alt" /> </span
                                     >&nbsp; 내 문서 기여 목록
                                 </Link>
                                 <Link href={`/contribute/talk/${props.data.user.name}`} className="navbar-item">
-                                    <span className="icon"> <span className="fas fa-chart-bar" /> </span
+                                    <span className="icon"> <span className="fas fa-file-contract" /> </span
                                     >&nbsp; 내 토론 기여 목록
+                                </Link>
+                                <Link href={`/contribute/PR/${props.data.user.name}`} className="navbar-item">
+                                    <span className="icon"> <span className="fas fa-file-contract" /> </span
+                                    >&nbsp; 내 편집 요청 기여 목록
                                 </Link>
                                 <Link href="/member/starred_documents" className="navbar-item">
                                     <span className="icon"> <span className="fas fa-bookmark" /> </span
@@ -154,12 +162,16 @@ export default function skin (props) {
                                     >&nbsp; 환경 설정
                                 </a>
                                 <Link href={`/contribute/docip/test`} className="navbar-item">
-                                    <span className="icon"> <span className="fas fa-chart-line" /> </span
+                                    <span className="icon"> <span className="fas fa-file-alt" /> </span
                                     >&nbsp; 내 문서 기여 목록
                                 </Link>
                                 <Link href={`/contribute/talkip/test`} className="navbar-item">
-                                    <span className="icon"> <span className="fas fa-chart-bar" /> </span
+                                    <span className="icon"> <span className="fas fa-file-contract" /> </span
                                     >&nbsp; 내 토론 기여 목록
+                                </Link>
+                                <Link href={`/contribute/PRip/test`} className="navbar-item">
+                                    <span className="icon"> <span className="fas fa-file-contract" /> </span
+                                    >&nbsp; 내 편집 요청 기여 목록
                                 </Link>
                                 <div className="navbar-divider"></div>
                                 <Link href={`login/${encodeURIComponent(process.env.NEXT_PUBLIC_FRONTPAGE)}`} className="navbar-item">
